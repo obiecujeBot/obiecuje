@@ -1,0 +1,30 @@
+/*26 FRONT-END STRONY BĘDZIE KOŃCZONY 26.04.2022 OBIECUJE*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #18181b;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    width: calc(100% - 20px);
+    border-bottom: 2px solid #222;
+    padding: 10px;
+}
+
+div:hover {
+    background: #1f1f1f;
+    color: #bf94ff;
+    cursor: pointer;
+}
